@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Estilo Sin Fronteras</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="shortcut icon" href="./assets/img/icon.png" type="image/x-icon">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container container-header">
+            <h1>Estilo Sin Fronteras</h1>
+        </div>
+    </header>
+
+    <div class="categorias">
+        <nav class="lista">
+            <h2 class="categoria">Categorías</h2>
+            <ul class="items">
+                <li id="todo" class="item cat todo">
+                    <a id="todas" class="menuitem todas catTodas">Todo</a>
+                </li>
+                <li id="casual" class="item cat casual">
+                    <a id="casual" class="menuitem">Casual</a>
+                </li>
+                <li id="urbano" class="item cat urbano">
+                    <a id="urbano" class="menuitem">Urbano</a>
+                </li>
+                <li id="formal" class="item cat formal">
+                    <a id="formal" class="menuitem">Formal</a>
+                </li>
+                <li id="zapatillas" class="item cat zapatillas">
+                    <a id="zapatillas" class="menuitem">Deportivo</a>
+                </li>
+                <li id="misCompras" class="item">
+                    <a id="misProductos" class="menuitem">Mis Productos 🛒
+                        <span id="carritoCantidad" class="burbujaCantidad">0</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <main class="main">
+            <section class="container">
+                <h2 class="titulo">Productos</h2>
+                <div class="articulos" id="articulos">
+                </div>
+            </section>
+
+            <section id="carritoContenedor" class="container d-none">
+                <h2 class="tituloCarrito">Mis Compras</h2>
+                <div class="compras">
+                    <div id="sin-compras">
+                        <h4 id="sinCompras-carrito">No tienes compras 🥹.</h4>
+                    </div>
+                    <div class="productos-compras-carrito d-none" id="productos-compras">
+                    </div>
+                    <div class="total-compras">
+                        <h2>Total: <span id="total-compras">$0</span></h2>
+                    </div>
+                    <div id="" class="btn-acciones">
+                        <div id="" class="btn-acc-vaciar">
+                            <button id="btn-vaciar" class="btn-vaciar">Vaciar Carrito</button>
+                        </div>
+                    </div>
+                    <div id="" class="btn-acciones-compra">
+                        <div id="" class="btn-final-comprar">
+                            <button id="btn-comprar" class="btn-comprar">Finalizar Compra</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>Estilo Sin Fronteras ©</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="./assets/js/code.js" defer></script>
+    <script src="./assets/js/functions.js"></script>
+</body>
+
+</html>
