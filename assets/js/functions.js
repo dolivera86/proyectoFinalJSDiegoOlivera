@@ -1,7 +1,7 @@
 // Función para cargar los productos desde el JSON
 function cargarProductos() {
 
-    fetch("json/data.json")
+    fetch("./json/data.json")
         .then(resp => resp.json())
         .then(data => {
             productos = data;
